@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #152c5b;
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f8f9fa;
+}
+
+.nav-link {
+  color: #f8f9fa;
+  margin-right: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #e63946;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #e63946;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-body p {
+  margin-bottom: 0.375rem;
+}
+
+.card-title {
+  color: #343a40;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+.card-footer iframe {
+  border-radius: 0 0 10px 10px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+@media (max-width: 1170px) {
+  footer .row {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .col-md-4 {
+    margin-bottom: 30px;
+  }
+
+  .footer-logo {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  footer .footer-logo {
+    font-size: 1.2rem;
+  }
+
+  footer .d-flex a {
+    font-size: 1.5rem;
+  }
+
+  footer .col-md-4 {
+    margin-bottom: 20px;
+  }
+
+  footer .text-center {
+    text-align: center;
+  }
+}
